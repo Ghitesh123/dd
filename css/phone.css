@@ -1,0 +1,85 @@
+body{
+    background-color: red;
+}
+
+
+/* navbar */
+
+#nav {
+    flex-direction: column;
+    padding-top: 33px;
+}
+
+#nav ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+#nav::before {
+    height: 218%;
+}
+
+/* home section */
+#home {
+    height: 465px;
+ padding-bottom: 0px;
+}
+
+
+#home::before {
+    height: 100%;
+}
+#home #home-content {
+    padding-bottom: 0px;
+    margin-left: 23px;
+    width: 42%;
+}
+#home #home-content h1, p {
+ padding: 0px; 
+}
+
+.h1-primary {
+  font-size: 20px;
+}
+#home #home-content  p {
+  font-size: 14px;
+   }
+ 
+
+   #home-content::before {
+    height: 36%;
+    top: 177px;
+    opacity: 0.2;
+    left: 16px;
+    width: 51%;
+}
+
+/* client section  */
+#client{
+    height: 400px;
+}
+#client h2{
+    font-size: 13px;
+    text-align: center;
+}
+
+#client::before {
+    border-radius: 0px;
+}
+
+#client .items{
+    flex-direction: column;
+}
+#client label {
+display: block;
+
+}
+form select {
+    margin: 2px auto;
+    text-align: center;
+    display: block;
+}
+#client form button {
+    width: 100%;
+}
